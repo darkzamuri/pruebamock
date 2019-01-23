@@ -1,2 +1,0 @@
-# pruebamock
-Created with CodeSandbox
