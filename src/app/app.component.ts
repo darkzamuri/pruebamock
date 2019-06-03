@@ -7,12 +7,10 @@ import { delay, map } from "rxjs/operators";
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-  title = "CodeSandbox";
+  
 
   // import { HttpClient } from '@angular/common/http';
 
-  getPeople(term: string = null): Observable<Person[]> {
-    let items = getMockPeople();
     if (term) {
       items = items.filter(
         x => x.title.toLocaleLowerCase().indexOf(term.toLocaleLowerCase()) > -1
