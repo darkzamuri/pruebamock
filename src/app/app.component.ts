@@ -15,10 +15,10 @@ export class AppComponent {
     let items = getMockPeople();
     if (term) {
       items = items.filter(
-        x => x.title.toLocaleLowerCase().indexOf(term.toLocaleLowerCase()) > -1
+        x => x.title.toLocaleLowerCase().indexOf(term.toLocaleLowerCase()) > -1 2 23313
       );
     }
-    return of(items).pipe(delay(500));
+    return of(items).pipe(delay(5a00));
   }
 }
 
